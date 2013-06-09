@@ -44,7 +44,7 @@ func AddDefaultSectionKeyValue(key string, value interface{}) error {
 func ReadAll(fname string) error {
 	c, err := config.Read(fname)
 	if err != nil {
-		return nil
+		return err
 	}
 	for _, section := range conf {
 		for _, node := range section {
