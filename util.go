@@ -1,7 +1,7 @@
 package configutil
 
 import (
-  "common/config"
+        "github.com/screscent/config"
 	"errors"
 	"reflect"
 )
